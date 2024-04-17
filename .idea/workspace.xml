@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1744cfae-b5da-44f0-8ed4-12622b0e22c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BachelorProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BachelorProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
