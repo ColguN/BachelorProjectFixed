@@ -64,7 +64,7 @@ for trader in traders:
 
         except Exception as e:
             print(f"An error occurred while processing idea: {str(e)}")
-            driver.back()
+            # driver.back()
             time.sleep(5)
             counter_ideas += 1  # Skip to the next idea in case of an error
 
