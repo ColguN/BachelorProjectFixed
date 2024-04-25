@@ -14,7 +14,7 @@ crypto_list = ["BTC", "ETH", "BNB", "SOL", "XRP", "DOGE", "TON", "ADA", "AVAX", 
                "ICP", "LEO", "DAI"]
 
 
-with open("Crypto_ideas.txt", "w") as file:
+with open("Crypto_ideas.txt", "w", encoding="utf-8") as file:
     # open the page of the traders (this will eventually be a loop of all the traders)
     for trader in traders:
         driver.get(trader)
@@ -68,7 +68,7 @@ with open("Crypto_ideas.txt", "w") as file:
                     detailed_text = WebDriverWait(driver, 10).until(
                         EC.visibility_of_element_located((By.CLASS_NAME, "tv-chart-view__section--with-separator"))
                     ).text
-                    file.write(f"Crypto Idea {counter_ideas + 1} Details for {trader}:\n{detailed_text}\n{'-' * 50}\n")
+                    file.write(f"Crypto Idea {counter_crypto_idea + 1} Details for {trader}:\n{detailed_text}\n{'-' * 50}\n")
 
                     # Increment the crypto-related idea count
                     counter_crypto_idea += 1
