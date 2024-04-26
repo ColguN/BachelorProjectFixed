@@ -1,3 +1,4 @@
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -13,13 +14,16 @@ traders = ["https://www.tradingview.com/u/AlanSantana/"]
 crypto_list = ["BTC", "ETH", "BNB", "SOL", "XRP", "DOGE", "TON", "ADA", "AVAX", "SHIB", "TRX", "DOT", "BCH", "LINK", "MATIC", "NEAR", "LTC",
                "ICP", "LEO", "DAI"]
 
+# Test for 1 trader
+for trader in traders:
+    driver.get(trader)
+    time.sleep(5)
 
-with open("Crypto_ideas.txt", "w", encoding="utf-8") as file:
-    # open the page of the traders (this will eventually be a loop of all the traders)
-    for trader in traders:
-        driver.get(trader)
-        time.sleep(5)
-
+    # name and path of dataset
+    trader_name = trader.split("/")[-2]
+    file_name = trader_name + "ideas.txt"
+    file_path = os.path.join("Dataset_test", file_name)
+    with open(file_path, "w", encoding="utf-8") as file:
         # Initialize the counters
         counter_crypto_idea = 0
         counter_ideas = 0
@@ -29,10 +33,12 @@ with open("Crypto_ideas.txt", "w", encoding="utf-8") as file:
             # Wait until the ideas are definitely loaded on the page
             WebDriverWait(driver, 10).until(
                 EC.presence_of_all_elements_located(
-                    (By.CSS_SELECTOR, 'div.tv-card-container > div.tv-card-container__columns > div.js-card-list.tv-card-container__ideas > div.tv-feed__item.tv-feed-layout__card-item.js-feed__item--inited')))
+                    (By.CSS_SELECTOR, 'div.tv-card-container > div.tv-card-container__columns > div.js-card-list.tv-card-container__ideas > '
+                                      'div.tv-feed__item.tv-feed-layout__card-item.js-feed__item--inited')))
             # Locate all ideas on the page at this moment
             ideas = driver.find_elements(By.CSS_SELECTOR,
-                                         'div.tv-card-container > div.tv-card-container__columns > div.js-card-list.tv-card-container__ideas > div.tv-feed__item.tv-feed-layout__card-item.js-feed__item--inited')
+                                         'div.tv-card-container > div.tv-card-container__columns > div.js-card-list.tv-card-container__ideas > '
+                                         'div.tv-feed__item.tv-feed-layout__card-item.js-feed__item--inited')
             if counter_ideas >= len(ideas):
                 # click the load more button at the bottom of the ideas
                 try:
@@ -44,7 +50,8 @@ with open("Crypto_ideas.txt", "w", encoding="utf-8") as file:
                     time.sleep(5)
                     # Refresh the list of ideas
                     ideas = driver.find_elements(By.CSS_SELECTOR,
-                                                 'div.js-card-list.tv-card-container__ideas > div.tv-feed__item.tv-feed-layout__card-item.js-feed__item--inited')
+                                                 'div.js-card-list.tv-card-container__ideas > '
+                                                 'div.tv-feed__item.tv-feed-layout__card-item.js-feed__item--inited')
                 except Exception as e:
                     print("No more ideas to load or failed to load more ideas:", str(e))
                     break
@@ -68,7 +75,7 @@ with open("Crypto_ideas.txt", "w", encoding="utf-8") as file:
                     detailed_text = WebDriverWait(driver, 10).until(
                         EC.visibility_of_element_located((By.CLASS_NAME, "tv-chart-view__section--with-separator"))
                     ).text
-                    file.write(f"Crypto Idea {counter_crypto_idea + 1} Details for {trader}:\n{detailed_text}\n{'-' * 50}\n")
+                    file.write(f"Crypto Idea {counter_crypto_idea + 1} Details for {trader_name}:\n{detailed_text}\n{'-' * 50}\n")
 
                     # Increment the crypto-related idea count
                     counter_crypto_idea += 1
