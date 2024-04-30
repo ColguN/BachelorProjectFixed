@@ -74,15 +74,16 @@ for trader in traders:
             if any(symbol in href for symbol in crypto_list):
                 idea_title = WebDriverWait(driver, 10).until(
                     EC.visibility_of_element_located((By.CSS_SELECTOR, "div.tv-chart-view__title-name-wrap > "
-                                                                       "h1.tv-chart-view__title-name.js-chart-view__name"))
-                ).text
+                                                                       "h1.tv-chart-view__title-name.js-chart-view__name"))).text
                 idea_timestamp_location = WebDriverWait(driver, 5).until(
-                    EC.visibility_of_element_located((By.CSS_SELECTOR, "span.tv-chart-view__title-time"))
-                )
+                    EC.visibility_of_element_located((By.CSS_SELECTOR, "span.tv-chart-view__title-time")))
                 idea_timestamp = idea_timestamp_location.get_attribute("data-timestamp")
+                idea_description = WebDriverWait(driver, 10).until(
+                    EC.visibility_of_element_located((By.CSS_SELECTOR, "div.tv-chart-view__description-wrap.js-chart-view__description"))).text
                 print(f"Crypto Idea {counter_crypto_idea + 1} Details:")
                 print("Title: ", idea_title)
-                print(idea_timestamp)
+                print("timestamp: ", idea_timestamp)
+                print("idea description:", idea_description)
                 print("-" * 50)
 
                 # Increment the crypto-related idea count
