@@ -9,7 +9,7 @@ import time
 driver = webdriver.Firefox()
 
 # list of traders
-traders = ["https://www.tradingview.com/u/AlanSantana/"]
+traders = ["https://www.tradingview.com/u/CryptoColugo/"]
 # list of the symbols from the top 20 crypto coins based on market cap (excluding stable coins)
 crypto_list = ["BTC", "ETH", "BNB", "SOL", "XRP", "DOGE", "TON", "ADA", "AVAX", "SHIB", "TRX", "DOT", "BCH", "LINK", "MATIC", "NEAR", "LTC",
                "ICP", "LEO", "DAI"]
