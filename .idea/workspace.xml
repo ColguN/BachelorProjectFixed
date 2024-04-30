@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1744cfae-b5da-44f0-8ed4-12622b0e22c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/extended_webscraping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset_test/AlanSantanaideas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset_test/AlanSantanaideas.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.test_webscraping">
+  <component name="RunManager" selected="Python.extended_webscraping">
     <configuration name="extended_webscraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BachelorProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.extended_webscraping" />
         <item itemvalue="Python.test_webscraping" />
         <item itemvalue="Python tests.Python tests in test_webscraping.py" />
-        <item itemvalue="Python.extended_webscraping" />
         <item itemvalue="Python.selenium_script" />
       </list>
     </recent_temporary>
