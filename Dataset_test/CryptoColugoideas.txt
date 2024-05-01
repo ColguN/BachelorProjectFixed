@@ -1,9 +1,9 @@
 Crypto Idea 1 Details for CryptoColugo:
 XRPUSD - Big move in progress.
-XRP (BITSTAMP:XRPUSD) 0.49595 −0.01928 −3.74%
+XRP (BITSTAMP:XRPUSD) 0.49821 −0.01702 −3.30%
 CryptoColugo
 Updated 
-Apr 28
+2 hours ago
 XRP / U.S. Dollar
 1W
 BITSTAMP
@@ -313,12 +313,30 @@ Once we can break out the range our target will be around 1.20.
 Have a nice sunday
 Apr 28
 Comment:
+2 hours ago
+Comment:
+A few reason why i think XRP will be bullish in May:
+
+The monthly chart is coming to a close and we are still in a sideways range.
+We are printing a bullish hammer on the XRPBTC chart, after so many red weeks it's time to put in that big green candle!
+We also are very oversold on the weekly chart, when the RSI go back above the 30 level it's time for fireworks.
+2 hours ago
+Comment:
+2 hours ago
+Comment:
+2 hours ago
+Comment:
+It's possible that we move up 100% fast
+2 hours ago
+Comment:
+2 hours ago
+Comment:
 Twitter
 Youtube
 --------------------------------------------------
 Crypto Idea 2 Details for CryptoColugo:
 XRPUSD - Target 2024 - between 4 and 7 dollar.
-XRP (BITFINEX:XRPUSD) 0.49710 −0.01888 −3.66%
+XRP (BITFINEX:XRPUSD) 0.49927 −0.01671 −3.24%
 CryptoColugo
 Updated 
 Apr 18
@@ -385,29 +403,29 @@ Youtube
 Crypto Idea 3 Details for CryptoColugo:
 XRPUSDT - Pattern forming!
 LONG
-XRP / TetherUS (BINANCE:XRPUSDT) 0.4963 −0.02 −3.65%
+XRP / TetherUS (BINANCE:XRPUSDT) 0.4986 −0.0165 −3.20%
 CryptoColugo
 Mar 23
 XRP / TetherUS
 4h
 BINANCE
 O
-0.6805
+0.6243
 H
-0.7077
+0.6254
 L
-0.6773
+0.6216
 C
-0.6855
-+0.0050 (+0.73%)
+0.6228
+−0.0016 (−0.26%)
 USDT
 RSI
 14 close
-55.77
-59.57
+52.63
+52.42
 ∅
 ∅
-∅
+45.95
 ∅
 ∅
 ∅
@@ -426,7 +444,7 @@ Youtube
 Crypto Idea 4 Details for CryptoColugo:
 XRPUSD - Patience for that 100% move Up
 LONG
-XRP (BITSTAMP:XRPUSD) 0.49595 −0.01928 −3.74%
+XRP (BITSTAMP:XRPUSD) 0.49821 −0.01702 −3.30%
 CryptoColugo
 Updated 
 Mar 23
@@ -494,387 +512,6 @@ Comment:
 Possible pattern to watch for today, a ascending triangle formation.
 Mar 23
 Comment:
-Twitter
-Youtube
---------------------------------------------------
-Crypto Idea 5 Details for CryptoColugo:
-BTCUSDT - Possible Inverse Head And Shoulder Pattern
-LONG
-Bitcoin / TetherUS (BINANCE:BTCUSDT) 60205.96 −3660.04 −5.73%
-CryptoColugo
-Mar 22
-Bitcoin / TetherUS
-4h
-BINANCE
-O
-63866.94
-H
-63978.86
-L
-63575.80
-C
-63594.17
-−272.76 (−0.43%)
-USDT
-RSI
-14 close
-40.06
-48.47
-∅
-∅
-∅
-∅
-∅
-∅
-Chart Patterns Technical Indicators Trend Analysis
-6
-1
-I think we will see a green weekend for the crypto market. Specially for ALTCOINS!
-
-After a break of the downward channel we are now testing support and are possible creating a bullish pattern, a inverse head and shoulder pattern.
-
-Have a good weekend.
-Twitter
-Youtube
---------------------------------------------------
-Crypto Idea 6 Details for CryptoColugo:
-XRPUSD - Target 0.81 and 0.91 within 25 days
-LONG
-XRP (BITSTAMP:XRPUSD) 0.49595 −0.01928 −3.74%
-CryptoColugo
-Updated 
-Mar 20
-XRP / U.S. Dollar
-1D
-BITSTAMP
-O
-0.49056
-H
-0.49176
-L
-0.47011
-C
-0.47917
-−0.01130 (−2.30%)
-USD
-RSI
-14 close
-43.99
-47.75
-∅
-∅
-∅
-∅
-∅
-∅
-Trend Analysis Chart Patterns Technical Indicators
-20
-0
-Mar 16
-This is the inverse XRPUSD chart so upside down.
-We broke a major triangle formation to the downside (bullish) and we are now retesting the broken support zone.
-
-XRP is still bullish and the short term targets are 0.81 and 0.91.
-We are in a bullmarket and dips are for buying. (IMO)
-Mar 17
-Comment:
-What if we would see a similar price action as in 2017?
-Mar 17
-Comment:
-Mar 17
-Comment:
-THE XRPBTC chart is in a major buy zone!
-Mar 17
-Comment:
-Mar 20
-Comment:
-Update:
-
-Still nothing changed we are still flirting with support/resistance. We should brake this 0.60 zone once and for all and never look back.
-Mar 20
-Comment:
-Mar 20
-Comment:
-Now, let's check out the XRPBTC chart. After a long downtrend we are forming a inverse head and shoulder pattern. We are close to a rally to the upside compared to BITCOIN
-Mar 20
-Comment:
-Mar 20
-Comment:
-This the XRPETH chart, we might are forming a bottom as well, again a sign that XRP will have a run soon.
-Mar 20
-Comment:
-Twitter
-Youtube
---------------------------------------------------
-Crypto Idea 7 Details for CryptoColugo:
-XRPUSDT - Different Timeframes and possible targets
-XRP / TetherUS (BINANCE:XRPUSDT) 0.4960 −0.02 −3.71%
-CryptoColugo
-Updated 
-Mar 15
-XRP / TetherUS
-1M
-BINANCE
-O
-0.5868
-H
-0.7440
-L
-0.5386
-C
-0.6836
-+0.0969 (+16.52%)
-USDT
-RSI
-14 close
-54.79
-50.46
-∅
-∅
-∅
-∅
-∅
-∅
-Trend Analysis Chart Patterns Technical Indicators
-13
-0
-Mar 14
-Let's take a look at the XRP chart starting with the monthly timeframe.
-
-We are forming a very tight range with lower highs and higher lows. If we can see a break of 0.75 we can reach following targets:
-
-0.81
-0.93
-1.11
-1.59
-Mar 14
-Comment:
-Now let's check out the weekly chart.
-
-We broke the major declining trendline and touched the first horizontal support.
-The RSI isn't overbought yet so we still have space to move higher.
-Mar 14
-Comment:
-Mar 14
-Comment:
-Let's dive in the daily chart.
-
-After a 20% move up the RSI was in the overbought zone and need to cool of. For now we saw 3 inside bars so we are creating a tight range, this ranges often awaiting a big move. Till now it seems we are forming a bull flag. This can continue to the upside.
-Mar 14
-Comment:
-Mar 14
-Comment:
-On the 4 and 1 hour chart we are creating a possible falling wedge pattern. The RSI was overbought and we had to cool of, this by creating a bullish structure in a falling wedge.
-Mar 14
-Comment:
-Mar 14
-Comment:
-Also pay attention to the XRPBTC chart. When this downward channel breaks upwards we can expect a 100% move!
-
-The price has a positive divergence with the RSI, it's time for XRP to do it's thing !
-Mar 14
-Comment:
-Mar 15
-Comment:
-Update: on the 1H and 4H timeframe we broke the falling wedge bullish but failed at the retest.
-
-The bigger picture and targets are still the same
-Mar 15
-Comment:
-Twitter
-Youtube
---------------------------------------------------
-Crypto Idea 8 Details for CryptoColugo:
-XRPUSDT - Road to 0.71
-LONG
-XRP / TetherUS (BINANCE:XRPUSDT) 0.4960 −0.0191 −3.71%
-CryptoColugo
-Updated 
-Mar 13
-XRP / TetherUS
-1D
-BINANCE
-O
-0.5385
-H
-0.5398
-L
-0.5030
-C
-0.5245
-−0.0139 (−2.58%)
-USDT
-RSI
-14 close
-32.06
-37.90
-∅
-∅
-∅
-∅
-∅
-∅
-Trend Analysis Chart Patterns Technical Indicators
-74
-11
-Feb 28
-As mentioned in my previous idea we broke the 0.60 resistance area and we had a retest of the broken zone! IF we can hold this level i expect us to move towards 0.71 before a pullback.
-
-The XRPBTC is a historical levels and are nearing major support levels. A reversal will happen soon and i believe XRP willl finally have it's run.
-Mar 1
-Comment:
-XRP is testing a very important level the 0.60 area. Look at the chart below and look how it acted as major resistance and support! With the next major break i believe we can fly to 0.85. It's a + 45% raise!
-Mar 1
-Comment:
-Mar 2
-Comment:
-The XRPBTC chart looks great. Risk to reward this is what you want to see.
-Since 2014 we only touched the green box (major support) only 5 times! we are in this zone again and the RSI is below 30 on the weekly chart. We are setting up for a huge raise! Don't sleep on XRP. Don't chase coins that already went up a lot of %, search the ones that didn't yet!
-Mar 2
-Comment:
-Mar 3
-Comment:
-This the XRPBTC chart on the weekly. If we can close the weekly candle like this we are making a bullish hammer. The last time the RSI was below 30 on the weekly chart we made a +158% move! Let's see what happens coming week but i think a big move for XRP is on the horizon.
-Mar 3
-Comment:
-Mar 4
-Comment:
-So far so good!
-
-Next stop 0.72 and 0.82
-Mar 4
-Comment:
-Mar 4
-Comment:
-XRPBTC chart:
-
-Wedge break and retest on the daily chart. Once BTC settles XRP will fly
-Mar 4
-Comment:
-Mar 5
-Comment:
-This is the BTCUSDT chart. Once BTC finds support it will get interesting for XRP
-Mar 5
-Comment:
-Mar 5
-Comment:
-Pull backs do happen in a bull run , they are trying to liquidate most traders.
-Next target is the 0.70 area
-Mar 5
-Comment:
-Mar 6
-Comment:
-This is an update on the weekly XRP chart. We need to pay attention to the weekly close, if we can close the weekly candle above the declining trendline and above horizontal support then next weeks we will see a big break out.
-Mar 6
-Comment:
-Mar 6
-Comment:
-BTC bounced from support as expected, if we can range here it would be good for altcoins!
-Mar 6
-Comment:
-Mar 7
-Comment:
-Update:
-
-Check out the XRPBTC monthly chart. We have 7 bearish candles without any lower high, just straight lows compared to bitcoin! Soon the game will change and XRP will catch up. In 2017 we formed a double bottom and went though the roof! Are we creating again a double bottom? I think so and i see a realistic move towards the supply zone. This will be a + 140% move what will bring XRP around 1 dollar.
-Mar 7
-Comment:
-Mar 7
-Comment:
-Some people asked me what my long term expectations are for XRP.
-
-Here are the targets and major resistance:
-
-0.91
-1.32
-2.99
-6.1
-9.2
-
-That's the minimum i think, if you look at what happened in 2017 i think everything is possible but this are realistic numbers.
-Mar 7
-Comment:
-Mar 13
-Comment:
-0.71 is reached and 71 likes! Time for a next trade idea...
-Twitter
-Youtube
---------------------------------------------------
-Crypto Idea 9 Details for CryptoColugo:
-XRPUSDT - Possible scenario
-LONG
-XRP / TetherUS (BINANCE:XRPUSDT) 0.4957 −0.02 −3.77%
-CryptoColugo
-Updated 
-Feb 28
-XRP / TetherUS
-1W
-BINANCE
-O
-0.5570
-H
-0.5751
-L
-0.5326
-C
-0.5466
-−0.0105 (−1.88%)
-EMA
-12 close 0
-0.5571
-USDT
-RSI
-14 close
-48.28
-Trend Analysis Chart Patterns Technical Indicators
-9
-1
-Feb 22
-XRP broke the diagonal trendline and creating a triangle formation. I think we will next visit the resistance area around 0.60, then we can revisit the lows around 0.54 and then we probably can see a break towards 0.72.
-Feb 28
-Comment:
-First target reached
-Twitter
-Youtube
---------------------------------------------------
-Crypto Idea 10 Details for CryptoColugo:
-XRPUSD - No trade zone
-XRP (BITSTAMP:XRPUSD) 0.49595 −0.01928 −3.74%
-CryptoColugo
-Jan 28
-XRP / U.S. Dollar
-1D
-BITSTAMP
-O
-0.47467
-H
-0.48244
-L
-0.44970
-C
-0.47314
-−0.00136 (−0.29%)
-USD
-RSI
-14 close SMA 14 2
-43.37
-46.68
-∅
-∅
-∅
-∅
-∅
-∅
-Trend Analysis Chart Patterns Technical Indicators
-4
-0
-XRP is currently testing major resistance on the daily chart. We saw that this zone rejected price for many times in the past. We also saw that once we can break this zone price is moving up fast.
-
-I would only be interested in a long position if we can break this strong resistance.
-
-If we can break resistance the target point would be 0.60 and if fit fails we watch out for a daily higher low to be set, if we can't manage to set a daily higher low price probably drop to the next important demand zone of the 0.47.
-
-Enjoy your sunday.
 Twitter
 Youtube
 --------------------------------------------------
