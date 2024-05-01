@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
 import time
 
 # Initialize the WebDriver for the browser u are using
@@ -78,15 +79,41 @@ for trader in traders:
                 idea_timestamp_location = WebDriverWait(driver, 5).until(
                     EC.visibility_of_element_located((By.CSS_SELECTOR, "span.tv-chart-view__title-time")))
                 idea_timestamp = idea_timestamp_location.get_attribute("data-timestamp")
-                idea_description = WebDriverWait(driver, 10).until(
-                    EC.visibility_of_element_located((By.CSS_SELECTOR, "div.tv-chart-view__description-wrap.js-chart-view__description"))).text
                 print(f"Crypto Idea {counter_crypto_idea + 1} Details:")
                 print("Title: ", idea_title)
                 print("timestamp: ", idea_timestamp)
-                print("idea description:", idea_description)
-                print("-" * 50)
+                try:
+                    first_post = driver.find_elements(By.CSS_SELECTOR, "div.tv-chart-view__description-wrap.js-chart-view__description > "
+                                                                       "tv-chart-updates.js-chart-updates > "
+                                                                       "tv-chart-updates__entry.tv-chart-updates__entry--initial "
+                                                                       "js-chart-update__entry "
+                                                      )
+                    first_post_timestamp = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
+                                                                                                       "span.tv-chart-updates__update-time")))
+                    timestamp = first_post_timestamp.get_attribute("data-timestamp")
 
-                # Increment the crypto-related idea count
+                    first_post_text = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
+                                                                                                       "div.tv-chart-updates__body"))).text
+                    print(timestamp)
+                    print(first_post_text)
+                    idea_updates = driver.find_elements(By.CSS_SELECTOR, "div.tv-chart-view__description-wrap.js-chart-view__description > "
+                                                                       "tv-chart-updates.js-chart-updates > "
+                                                                       "tv-chart-updates__entry.tv-chart-updates__entry--comment "
+                                                                       "js-chart-update__entry "
+                                                      )
+                    print("elements found")
+                    count_updates = 0
+                    for update in idea_updates:
+                        driver.find_element(By.CSS_SELECTOR, )
+
+
+
+                except NoSuchElementException as e:
+                    idea_description = WebDriverWait(driver, 10).until(
+                        EC.visibility_of_element_located((By.CSS_SELECTOR, "div.tv-chart-view__description.selectable"))).text
+                    print("idea description:", idea_description)
+                    print("-" * 50)
+                    # Increment the crypto-related idea count
                 counter_crypto_idea += 1
 
             # Navigate back to the ideas list
@@ -95,7 +122,7 @@ for trader in traders:
             counter_ideas += 1  # Move to the next idea
 
         except Exception as e:
-            print(f"An error occurred while processing idea: {str(e)}")
+            # print(f"An error occurred while processing idea: {str(e)}")
             driver.back()
             time.sleep(5)
             counter_ideas += 1  # Skip to the next idea in case of an error
