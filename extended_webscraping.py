@@ -78,36 +78,30 @@ for trader in traders:
                                                                        "h1.tv-chart-view__title-name.js-chart-view__name"))).text
                 idea_timestamp_location = WebDriverWait(driver, 5).until(
                     EC.visibility_of_element_located((By.CSS_SELECTOR, "span.tv-chart-view__title-time")))
-                idea_timestamp = idea_timestamp_location.get_attribute("data-timestamp")
                 print(f"Crypto Idea {counter_crypto_idea + 1} Details:")
                 print("Title: ", idea_title)
-                print("timestamp: ", idea_timestamp)
                 try:
-                    first_post = driver.find_elements(By.CSS_SELECTOR, "div.tv-chart-view__description-wrap.js-chart-view__description > "
-                                                                       "tv-chart-updates.js-chart-updates > "
-                                                                       "tv-chart-updates__entry.tv-chart-updates__entry--initial "
-                                                                       "js-chart-update__entry "
-                                                      )
-                    first_post_timestamp = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
-                                                                                                       "span.tv-chart-updates__update-time")))
-                    timestamp = first_post_timestamp.get_attribute("data-timestamp")
+                    updates_locations = WebDriverWait(driver, 10).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, "div.tv-chart-updates.js-chart-updates"))
+                    )
 
-                    first_post_text = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR,
-                                                                                                       "div.tv-chart-updates__body"))).text
-                    print(timestamp)
-                    print(first_post_text)
-                    idea_updates = driver.find_elements(By.CSS_SELECTOR, "div.tv-chart-view__description-wrap.js-chart-view__description > "
-                                                                       "tv-chart-updates.js-chart-updates > "
-                                                                       "tv-chart-updates__entry.tv-chart-updates__entry--comment "
-                                                                       "js-chart-update__entry "
-                                                      )
-                    print("elements found")
-                    count_updates = 0
-                    for update in idea_updates:
-                        driver.find_element(By.CSS_SELECTOR, )
-
-
-
+                    initial_post = updates_locations.find_element(By.CSS_SELECTOR,
+                                                          "div.tv-chart-updates__entry.tv-chart-updates__entry--initial.js-chart-update__entry")
+                    initial_post_timestamp = initial_post.find_element(By.CSS_SELECTOR, "span.tv-chart-updates__update-time").get_attribute(
+                        "data-timestamp")
+                    initial_post_text = initial_post.find_element(By.CSS_SELECTOR, "div.tv-chart-updates__body").text
+                    print("initial post timestamp:\n" + initial_post_timestamp)
+                    print("initial post:\n" + initial_post_text)
+                    updates_posts = updates_locations.find_elements(By.CSS_SELECTOR,
+                                                   "div.tv-chart-updates__entry.tv-chart-updates__entry--comment.js-chart-update__entry")
+                    update_count = 0
+                    for update in updates_posts:
+                        update_count += 1
+                        update_timestamp = update.find_element(By.CSS_SELECTOR, "span.tv-chart-updates__update-time").get_attribute("data-timestamp")
+                        update_text = update.find_element(By.CSS_SELECTOR, "div.tv-chart-updates__body").text
+                        print("update", update_count)
+                        print("update post timestamp:\n" + update_timestamp)
+                        print("update post text:\n" + update_text)
                 except NoSuchElementException as e:
                     idea_description = WebDriverWait(driver, 10).until(
                         EC.visibility_of_element_located((By.CSS_SELECTOR, "div.tv-chart-view__description.selectable"))).text
@@ -115,7 +109,6 @@ for trader in traders:
                     print("-" * 50)
                     # Increment the crypto-related idea count
                 counter_crypto_idea += 1
-
             # Navigate back to the ideas list
             driver.back()
             time.sleep(5)
