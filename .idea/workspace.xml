@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1744cfae-b5da-44f0-8ed4-12622b0e22c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset_test/AlanSantanaideas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset_test/CryptoColugoideas.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/extended_webscraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/extended_webscraping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +36,9 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="Python.extended_webscraping">
     <configuration name="extended_webscraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
