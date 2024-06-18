@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 import time
-import csv
+import pandas as pd
 
 # Initialize the WebDriver for the browser u are using
 driver = webdriver.Firefox()
@@ -152,13 +152,14 @@ print(len(post_timestamp), post_timestamp)
 print(len(post_type), post_type)
 print(len(post_text))
 
-columns = [name_of_trader, post_title, post_length, post_type, post_timestamp, post_text]
-rows = list(zip(*columns))
+data = {"Trader": name_of_trader,
+        "Title": post_title,
+        "Post length": post_length,
+        "Post type":post_type,
+        "Timestamp": post_timestamp,
+        "Text": post_text}
+df = pd.DataFrame(data)
 
 csv_file_path = os.path.join("Dataset_test", f"{trader_name}.csv")
 
-with open(csv_file_path, mode="w", newline="", encoding="utf-8") as file:
-    writer = csv.writer(file)
-    writer.writerow(["Trader", "Title", "Post length", "Post type", "Timestamp", "Text"])
-    for row in rows:
-        writer.writerow(row)
+df.to_csv(csv_file_path, index=False, encoding="utf-8")

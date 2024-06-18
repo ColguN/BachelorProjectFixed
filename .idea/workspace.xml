@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1744cfae-b5da-44f0-8ed4-12622b0e22c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/AlanSantana.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/CRYPTOMOJO_TA.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/CryptoColugo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/FieryTrading.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/MoralDisciple.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/RocketBomb.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/Xanrox.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/weslad.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset_test/without_worries.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset_test/AlanSantanaideas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset_test/CryptoColugoideas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset_test/CryptoColugoideas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset_test/CryptoColugoideas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extended_webscraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/extended_webscraping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +27,6 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
   <component name="ProjectId" id="2fEjUhq2z0vX9zNJLGWM3qclIZe" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,15 +35,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "Merging main"
-  }
-}]]></component>
   <component name="RunManager" selected="Python.extended_webscraping">
     <configuration name="extended_webscraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BachelorProject" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -80,7 +59,6 @@
     </configuration>
     <configuration name="selenium_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BachelorProject" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -102,7 +80,6 @@
     </configuration>
     <configuration name="test_webscraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BachelorProject" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -124,7 +101,6 @@
     </configuration>
     <configuration name="webscraper" type="PythonConfigurationType" factoryName="Python">
       <module name="BachelorProject" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -146,7 +122,6 @@
     </configuration>
     <configuration name="Python tests in test_webscraping.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="BachelorProject" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -196,5 +171,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
